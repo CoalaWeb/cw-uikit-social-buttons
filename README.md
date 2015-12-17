@@ -36,7 +36,7 @@ Lastly make sure to include the **jQuery** on your page. You can check if its lo
 
 ![Figure-4](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-jquery.png "Figure-4")
 
-#### Note: If you have files listed but they don't appear to be working make sure the files are reachable by clicking on the link when viewing the page source. If it opens then its reachable.
+> Note: If you have files listed but they don't appear to be working make sure the files are reachable by clicking on the link when viewing the page source. If it opens then its reachable.
 
 Now lets add some buttons, I prefer to have the buttons in a list so they flow nicely on different page widths. Below we have some outer containers to help with the layout and then inside that we have our list container and one button in its default state with an icon.
 
@@ -46,7 +46,8 @@ Now lets add some buttons, I prefer to have the buttons in a list so they flow n
         <div class="uk-width-1-1 uk-text-left">
             <ul class="cw-social-container">
                 <li class="">
-                    <a href="#" class="uk-button uk-contrast cw-social cw-twitter"><i class="uk-icon-twitter"></i> Twitter</a>
+                    <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
+                        <i class="uk-icon-twitter"></i> Twitter</a>
                 </li>
             </ul>
         </div>
@@ -102,7 +103,7 @@ The buttons can be displayed in a variety of sizes which included:
 - Link class = cw-large 
 - Icon class = uk-icon-large
 
-```
+```html
 <a href="#" class="uk-button uk-contrast cw-social cw-small cw-twitter">
     <i class="uk-icon-twitter uk-icon-small"></i></a>
 ```
@@ -114,7 +115,7 @@ The buttons can be displayed with or without text.
 **Text:** 
 - No link class added just make sure to leave a space after the icon.
 
-```
+```html
 <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
     <i class="uk-icon-twitter"></i> Twitter</a>
 ```
@@ -122,7 +123,7 @@ The buttons can be displayed with or without text.
 **No Text:** 
 - Icon class = cw-no-text
 
-```
+```html
 <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
     <i class="uk-icon-twitter cw-no-text"></i> Twitter</a>
 ```
@@ -131,7 +132,7 @@ The buttons can be displayed with or without text.
 
 You can also display a count for each of the buttons by adding a simple `<span>` element.
 
-```
+```html
 <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
     <i class="uk-icon-twitter"></i> Twitter</a><span class="cw-share-count ">313</span>
 ```
@@ -147,7 +148,7 @@ The count will also have to match your button size:
 **Large:**
 - Span Class = cw-large
 
-```
+```html
 <a href="#" class="uk-button uk-contrast cw-social cw-small cw-twitter">
     <i class="uk-icon-twitter uk-icon-small"></i> Twitter</a><span class="cw-share-count cw-small">313</span> 
 ```
