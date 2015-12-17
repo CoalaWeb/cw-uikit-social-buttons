@@ -12,7 +12,8 @@
 
 ## <a name="intro"></a>Intro
 
-> Are you using UIkit on its own or are you using a template/theme or extension that has come packaged with it? 
+> Are you using UIkit on its own or are you using a template/theme or extension that has come packaged with it?
+ 
 > Do you need a quick and easy way to get uniform social buttons on your site? 
 
 Then you have come to right place all you have to do is included the **cw-uikit-social-buttons.css** file to harness the power of UIkit and get great looking buttons in minutes.
@@ -43,13 +44,11 @@ Now lets add some buttons, I prefer to have the buttons in a list so they flow n
 <div class="uk-container uk-margin-top uk-margin-bottom">
     <div class="uk-grid" data-uk-grid-margin="">
         <div class="uk-width-1-1 uk-text-left">
-
             <ul class="cw-social-container">
                 <li class="">
                     <a href="#" class="uk-button uk-contrast cw-social cw-twitter"><i class="uk-icon-twitter"></i> Twitter</a>
                 </li>
             </ul>
-
         </div>
     </div>
 </div>
@@ -103,7 +102,10 @@ The buttons can be displayed in a variety of sizes which included:
 - Link class = cw-large 
 - Icon class = uk-icon-large
 
-`<a href="#" class="uk-button uk-contrast cw-social cw-small cw-twitter"><i class="uk-icon-twitter uk-icon-small"></i></a>`
+```
+<a href="#" class="uk-button uk-contrast cw-social cw-small cw-twitter">
+    <i class="uk-icon-twitter uk-icon-small"></i></a>
+```
 
 #### <a name="opt-text"></a>Button Text
 
@@ -112,12 +114,18 @@ The buttons can be displayed with or without text.
 **Text:** 
 - No link class added just make sure to leave a space after the icon.
 
-`<a href="#" class="uk-button uk-contrast cw-social cw-twitter"><i class="uk-icon-twitter"></i> Twitter</a>`
+```
+<a href="#" class="uk-button uk-contrast cw-social cw-twitter">
+    <i class="uk-icon-twitter"></i> Twitter</a>
+```
 
 **No Text:** 
 - Icon class = cw-no-text
 
-`<a href="#" class="uk-button uk-contrast cw-social cw-twitter"><i class="uk-icon-twitter cw-no-text"></i> Twitter</a>`
+```
+<a href="#" class="uk-button uk-contrast cw-social cw-twitter">
+    <i class="uk-icon-twitter cw-no-text"></i> Twitter</a>
+```
 
 #### <a name="opt-count"></a>Button Count
 
@@ -164,4 +172,4 @@ Dual licensed under the [MIT](http://www.opensource.org/licenses/mit-license.php
 
 ## <a name="issues"></a>Issues
 
-Do you have an issue? Found a bug? Want to request a new feature? Then create a new issue [here](https://github.com/CoalaWeb/jquery-html5cvm/issues).
+Do you have an issue? Found a bug? Want to request a new feature? Then create a new issue [here](https://github.com/CoalaWeb/cw-uikit-social-buttons/issues).
