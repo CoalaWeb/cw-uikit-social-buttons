@@ -12,7 +12,10 @@
 
 ## <a name="intro"></a>Intro
 
-Are you using UIkit on its own or are you using a template/theme or extension that has come packaged with it? Do you need a quick and easy way to get uniform social buttons on your site? Then you have come to right place all you have to do is included the **cw-uikit-social-buttons.css** file to harness the power of UIkit and get great looking buttons in minutes. *\[Figure 1\]*
+> Are you using UIkit on its own or are you using a template/theme or extension that has come packaged with it? 
+> Do you need a quick and easy way to get uniform social buttons on your site? 
+
+Then you have come to right place all you have to do is included the **cw-uikit-social-buttons.css** file to harness the power of UIkit and get great looking buttons in minutes.
 
 ![Figure-1](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/button-examples.png "Figure-1")
 
@@ -22,7 +25,7 @@ The first thing you need to do is to make sure you have **UIkit** loading on you
 
 ![Figure-2](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-uikit.png "Figure-2")
 
-#### Note: If you are using a YooTheme template or any other YooTheme extension then you will already have it loading.
+>  Note: If you are using a YooTheme template or any other YooTheme extension then you will already have it loading.
 
 Next include the **cw-uikit-social-buttons.css** on your page. You can check if its loaded the same way as above. *\[Figure 3\]*
 
