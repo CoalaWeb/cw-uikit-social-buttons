@@ -1,0 +1,330 @@
+<html>
+    <head>
+        <title>HTML5 Custom Validation Messages</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- jQuery -->
+        <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+
+        <!-- UIkit Note: not needed if you are already using UIkit-->
+        <link href="uikit-2.24.2/css/uikit.almost-flat.min.css" rel="stylesheet">
+        <script type="text/javascript" src="uikit-2.24.2/js/uikit.min.js"></script>
+        
+        <!-- CoalaWeb's Social Buttons -->
+        <link href="css/cw-uikit-social-buttons.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="uk-container uk-margin-top uk-margin-bottom">
+            <div class="uk-grid" data-uk-grid-margin="">
+                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
+                                <i class="uk-icon-twitter"></i> Twitter</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-google">
+                                <i class="uk-icon-google-plus"></i> Google</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-facebook">
+                                <i class="uk-icon-facebook"></i> Facebook</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-pinterest">
+                                <i class="uk-icon-pinterest"></i> Pinterest</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-linkedin">
+                                <i class="uk-icon-linkedin"></i> Linkedin</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-stumbleupon">
+                                <i class="uk-icon-stumbleupon"></i> Stumble</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-reddit">
+                                <i class="uk-icon-reddit"></i> Reddit</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-digg">
+                                <i class="uk-icon-digg cw-no-text"></i></a><span class="cw-share-count ">313</span>
+                        </li>
+                        
+                       <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-whatsapp">
+                                <i class="uk-icon-whatsapp"></i> WhatsApp</a><span class="cw-share-count ">313</span>
+                        </li>
+                                                <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-mail">
+                                <i class="uk-icon-envelope"></i> Mail</a><span class="cw-share-count ">313</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-google">
+                                <i class="uk-icon-google-plus"></i> Google</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-small cw-google">
+                                <i class="uk-icon-google-plus uk-icon-small"></i> Google</a><span class="cw-share-count cw-small">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-medium cw-google">
+                                <i class="uk-icon-google-plus uk-icon-medium"></i> Google</a><span class="cw-share-count cw-medium">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-google">
+                                <i class="uk-icon-google-plus uk-icon-large"></i> Google</a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-google">
+                                <i class="uk-icon-google-plus uk-icon-large cw-no-text"></i></a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-google">
+                                <i class="uk-icon-google-plus uk-icon-large"></i> Google</a>
+                        </li>
+                    </ul>
+
+                </div>
+                                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
+                                <i class="uk-icon-twitter"></i> Twitter</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-small cw-twitter">
+                                <i class="uk-icon-twitter uk-icon-small"></i> Twitter</a><span class="cw-share-count cw-small">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-medium cw-twitter">
+                                <i class="uk-icon-twitter uk-icon-medium"></i> Twitter</a><span class="cw-share-count cw-medium">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-twitter">
+                                <i class="uk-icon-twitter uk-icon-large"></i> Twitter</a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-twitter">
+                                <i class="uk-icon-twitter uk-icon-large cw-no-text"></i></a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-twitter">
+                                <i class="uk-icon-twitter uk-icon-large"></i> Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-facebook">
+                                <i class="uk-icon-facebook"></i> Facebook</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-small cw-facebook">
+                                <i class="uk-icon-facebook uk-icon-small"></i> Facebook</a><span class="cw-share-count cw-small">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-medium cw-facebook">
+                                <i class="uk-icon-facebook uk-icon-medium"></i> Facebook</a><span class="cw-share-count cw-medium">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-facebook">
+                                <i class="uk-icon-facebook uk-icon-large"></i> Facebook</a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-facebook">
+                                <i class="uk-icon-facebook uk-icon-large cw-no-text"></i></a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-facebook">
+                                <i class="uk-icon-facebook uk-icon-large"></i> Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-pinterest">
+                                <i class="uk-icon-pinterest"></i> Pinterest</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-small cw-pinterest">
+                                <i class="uk-icon-pinterest uk-icon-small"></i> Pinterest</a><span class="cw-share-count cw-small">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-medium cw-pinterest">
+                                <i class="uk-icon-pinterest uk-icon-medium"></i> Pinterest</a><span class="cw-share-count cw-medium">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-pinterest">
+                                <i class="uk-icon-pinterest uk-icon-large"></i> Pinterest</a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-pinterest">
+                                <i class="uk-icon-pinterest uk-icon-large cw-no-text"></i></a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-pinterest">
+                                <i class="uk-icon-pinterest uk-icon-large"></i> Pinterest</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-linkedin">
+                                <i class="uk-icon-linkedin"></i> Linkedin</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-small cw-linkedin">
+                                <i class="uk-icon-linkedin uk-icon-small"></i> Linkedin</a><span class="cw-share-count cw-small">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-medium cw-linkedin">
+                                <i class="uk-icon-linkedin uk-icon-medium"></i> Linkedin</a><span class="cw-share-count cw-medium">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-linkedin">
+                                <i class="uk-icon-linkedin uk-icon-large"></i> Linkedin</a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-linkedin">
+                                <i class="uk-icon-linkedin uk-icon-large cw-no-text"></i></a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-linkedin">
+                                <i class="uk-icon-linkedin uk-icon-large"></i> Linkedin</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-stumbleupon">
+                                <i class="uk-icon-stumbleupon"></i> Stumble</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-small cw-stumbleupon">
+                                <i class="uk-icon-stumbleupon uk-icon-small"></i> Stumble</a><span class="cw-share-count cw-small">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-medium cw-stumbleupon">
+                                <i class="uk-icon-stumbleupon uk-icon-medium"></i> Stumble</a><span class="cw-share-count cw-medium">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-stumbleupon">
+                                <i class="uk-icon-stumbleupon uk-icon-large"></i> Stumble</a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-stumbleupon">
+                                <i class="uk-icon-stumbleupon uk-icon-large cw-no-text"></i></a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-stumbleupon">
+                                <i class="uk-icon-stumbleupon uk-icon-large"></i> Stumble</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-reddit">
+                                <i class="uk-icon-reddit"></i> Reddit</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="cw-small">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-small cw-reddit">
+                                <i class="uk-icon-reddit uk-icon-small"></i> Reddit</a><span class="cw-share-count cw-small">313</span>
+                        </li>
+                        <li class="cw-medium">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-medium cw-reddit">
+                                <i class="uk-icon-reddit uk-icon-medium"></i> Reddit</a><span class="cw-share-count cw-medium">313</span>
+                        </li>
+                        <li class="cw-large">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-reddit">
+                                <i class="uk-icon-reddit uk-icon-large"></i> Reddit</a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="cw-large">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-reddit">
+                                <i class="uk-icon-reddit uk-icon-large cw-no-text"></i></a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="cw-large">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-reddit">
+                                <i class="uk-icon-reddit uk-icon-large"></i> Reddit</a>
+                        </li>
+                    </ul>
+
+                </div>
+                                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-whatsapp">
+                                <i class="uk-icon-whatsapp"></i> WhatsApp</a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="cw-small">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-small cw-whatsapp">
+                                <i class="uk-icon-whatsapp uk-icon-small"></i> WhatsApp</a><span class="cw-share-count cw-small">313</span>
+                        </li>
+                        <li class="cw-medium">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-medium cw-whatsapp">
+                                <i class="uk-icon-whatsapp uk-icon-medium"></i> WhatsApp</a><span class="cw-share-count cw-medium">313</span>
+                        </li>
+                        <li class="cw-large">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-whatsapp">
+                                <i class="uk-icon-whatsapp uk-icon-large"></i> WhatsApp</a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="cw-large">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-whatsapp">
+                                <i class="uk-icon-whatsapp uk-icon-large cw-no-text"></i></a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="cw-large">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-whatsapp">
+                                <i class="uk-icon-whatsapp uk-icon-large"></i> WhatsApp</a>
+                        </li>
+                    </ul>
+
+                </div>
+                
+                <div class="uk-width-1-1 uk-text-left">
+                    <ul class="cw-social-container">
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-digg">
+                                <i class="uk-icon-digg cw-no-text"></i></a><span class="cw-share-count ">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-small cw-digg">
+                                <i class="uk-icon-digg uk-icon-small cw-no-text"></i></a><span class="cw-share-count cw-small">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-medium cw-digg">
+                                <i class="uk-icon-digg uk-icon-medium cw-no-text"></i></a><span class="cw-share-count cw-medium">313</span>
+                        </li>
+                        <li class="">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-digg">
+                                <i class="uk-icon-digg uk-icon-large cw-no-text"></i></a><span class="cw-share-count cw-large">313</span>
+                        </li>
+                        <li class="cw-large">
+                            <a href="#" class="uk-button uk-contrast cw-social cw-large cw-digg">
+                                <i class="uk-icon-digg uk-icon-large cw-no-text"></i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
