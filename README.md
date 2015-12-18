@@ -169,16 +169,17 @@ The count will also have to match your button size:
 ## <a name="tested"></a>Tested
 
 #### UIkit
--   **UIkit:** 2.24.2
+- **UIkit:** 2.24.2
 
 #### jQuery
--   **jQuery:** 1.11.3
+- **jQuery:** 1.11.3
 
 #### Browsers
--   **Firefox:** 41.0.1
--   **Chrome:** 45.0.2454.101
--   **Opera:** 32.0.1948.69
--   **IE:** 11.0.9600.18015
+- **Firefox:** 41.0.1
+- **Chrome:** 45.0.2454.101
+- **Opera:** 32.0.1948.69
+- **IE:** 11.0.9600.18015
+- **Safari:** 9.0.2
 
 ## <a name="license"></a>License
 
