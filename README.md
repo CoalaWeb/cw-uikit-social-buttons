@@ -12,15 +12,17 @@
 
 ## <a name="intro"></a>Intro
 
-> Are you using UIkit on its own or packaged with a template/theme or extension?
+> Are you using UIkit on its own or packaged with a template/theme/extension?
  
 > Do you need a quick and easy way to get uniform social buttons on your site? 
 
-Then you have come to the right place, all you have to do is included the **cw-uikit-social-buttons.css** file on your page to harness the power of UIkit and get great looking buttons in minutes.
+By adding the `cw-uikit-social-buttons.css` file to your pages you can harness the power of UIkit and get great looking buttons in minutes.
 
 ![Figure-1](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/button-examples.png "Figure-1")
 
 ## <a name="qstart"></a>Quick Start
+
+### Requirements
 
 The first thing you need to do is to make sure you have **UIkit** loading on your site. To check right click your page and select **View Page Source** then have a look in the head of the page for a reference to UIkit. *\[Figure 2\]*
 
@@ -28,7 +30,7 @@ The first thing you need to do is to make sure you have **UIkit** loading on you
 
 >  Note: If you are using a YooTheme template or any other YooTheme extension then you will already have it loading.
 
-Next include the **cw-uikit-social-buttons.css** on your page. You can check if its loaded the same way as above. *\[Figure 3\]*
+Next include the `cw-uikit-social-buttons.css` on your page. You can check if its loaded the same way as above. *\[Figure 3\]*
 
 ![Figure-3](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-social-css.png "Figure-3")
 
@@ -37,6 +39,8 @@ Lastly make sure to include the **jQuery** on your page. You can check if its lo
 ![Figure-4](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-jquery.png "Figure-4")
 
 > Note: If you have files listed but they don't appear to be working make sure the files are reachable by clicking on the link when viewing the page source. If it opens then its reachable.
+
+### Button Creation
 
 Now lets add some buttons, I prefer to have the buttons in a list so they flow nicely on different page widths. Below we have some outer containers to help with the layout and then inside that we have our list container and one button in its default state with an icon.
 
@@ -55,16 +59,16 @@ Now lets add some buttons, I prefer to have the buttons in a list so they flow n
 </div>
 ```
 
-The important thing is to create your link and give it a class of at least:
+The minimum attributes that you will need to include with your buttons are:
 
-- uk-button
-- uk-contrast
-- cw-social
-- cw-twitter (you can choose based on the list below)
+- `uk-button`
+- `uk-contrast`
+- `cw-social`
+- `cw-twitter` (you can choose which social network based on the list below)
 
 Then if you want to add an icon use an `<i>` tag with the class of:
 
-- uk-icon-twitter (you can choose based on the list below)
+- uk-icon-twitter (you can choose which social network based on the list below)
 
 The currently support social networks are:
 
@@ -81,27 +85,27 @@ The currently support social networks are:
 
 ### <a name="options"></a>Extended Options
 
-You gave several options to extend the functionality of the buttons such as size, text and count.
+You have several options to extend the functionality of the buttons such as **size**, **text** and **count**.
 
 #### <a name="opt-size"></a>Button Sizes
 
 The buttons can be displayed in a variety of sizes which included:
 
 **Default:** 
-- No link class added
-- No Icon class added
+- Link class = 
+- Icon class = 
 
 **Small:** 
-- Link class = cw-small
-- Icon class = uk-icon-small
+- Link class = `cw-small`
+- Icon class = `uk-icon-small`
 
 **Medium:** 
-- Link class = cw-medium
-- Icon class = uk-icon-medium
+- Link class = `cw-medium`
+- Icon class = `uk-icon-medium`
 
 **Large:** 
-- Link class = cw-large 
-- Icon class = uk-icon-large
+- Link class = `cw-large` 
+- Icon class = `uk-icon-large`
 
 ```html
 <a href="#" class="uk-button uk-contrast cw-social cw-small cw-twitter">
@@ -113,43 +117,45 @@ The buttons can be displayed in a variety of sizes which included:
 The buttons can be displayed with or without text.
 
 **Text:** 
-- No link class added just make sure to leave a space after the icon.
+- Icon class = 
 
 ```html
 <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
     <i class="uk-icon-twitter"></i> Twitter</a>
 ```
 
+> Note: Make sure to leave a space after the icon.
+
 **No Text:** 
 - Icon class = cw-no-text
 
 ```html
 <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
-    <i class="uk-icon-twitter cw-no-text"></i> Twitter</a>
+    <i class="uk-icon-twitter cw-no-text"></i></a>
 ```
 
 #### <a name="opt-count"></a>Button Count
 
-You can also display a count for each of the buttons by adding a simple `<span>` element.
+You can also display a count for each of the buttons by adding a simple `<span>` element with the class attribute `cw-share-count`.
 
 ```html
 <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
-    <i class="uk-icon-twitter"></i> Twitter</a><span class="cw-share-count ">313</span>
+    <i class="uk-icon-twitter"></i> Twitter</a><span class="cw-share-count">313</span>
 ```
 
 The count will also have to match your button size:
 
 **Default:**
-- No span class added
+- Span Class = 
 
 **Small:**
-- Span Class = cw-small
+- Span Class = `cw-small`
  
 **Medium:**
-- Span Class = cw-medium
+- Span Class = `cw-medium`
  
 **Large:**
-- Span Class = cw-large
+- Span Class = `cw-large`
 
 ```html
 <a href="#" class="uk-button uk-contrast cw-social cw-small cw-twitter">
