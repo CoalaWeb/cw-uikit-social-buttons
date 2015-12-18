@@ -2,6 +2,8 @@
 
 1.  [Intro](#intro)
 2.  [Quick Start](#qstart)
+    -   [Requirements](#qstart-req)
+    -   [Button Creation](#qstart-btn)
 3.  [Extended Option](#options)
     -   [Button Sizes](#opt-size)
     -   [Button Text](#opt-text)
@@ -22,9 +24,9 @@ By adding the `cw-uikit-social-buttons.css` file to your pages you can harness t
 
 ## <a name="qstart"></a>Quick Start
 
-### Requirements
+### <a name="qstart-req"></a>Requirements
 
-**UIkit:** The first thing you need to do is to make sure you have **UIkit** loading on your site. To check right click your page and select **View Page Source** then have a look in the head of the page for a reference to UIkit. *\[Figure 2\]*
+**UIkit:** The first thing you need to do is to make sure you have UIkit loading on your site. To check right click your page and select **View Page Source** then have a look in the head of the page for a reference to UIkit. *\[Figure 2\]*
 
 ![Figure-2](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-uikit.png "Figure-2")
 
@@ -34,13 +36,13 @@ By adding the `cw-uikit-social-buttons.css` file to your pages you can harness t
 
 ![Figure-3](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-social-css.png "Figure-3")
 
-**jQuery:** Lastly make sure to include the **jQuery** on your page. You can check if its loaded the same way as above. *\[Figure 4\]*
+**jQuery:** Lastly make sure to include the jQuery on your page. You can check if its loaded the same way as above. *\[Figure 4\]*
 
 ![Figure-4](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-jquery.png "Figure-4")
 
 > Note: If you have files listed but they don't appear to be working make sure the files are reachable by clicking on the link when viewing the page source. If it opens then its reachable.
 
-### Button Creation
+### <a name="qstart-btn"></a>Button Creation
 
 Now lets add some buttons, I prefer to have the buttons in a list so they flow nicely on different page widths. Below we have some outer containers to help with the layout and then inside that we have our list container and one button in its default state with an icon.
 
