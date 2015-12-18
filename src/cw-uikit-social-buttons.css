@@ -5,7 +5,7 @@
  * @copyright           Copyright (c) 2015 Steven Palmer All rights reserved.
  */
 
-/* Containers
+/* Container
 ------------------------------------------------------------------------------- */
 ul.cw-social-container {
     list-style: none;
@@ -70,69 +70,6 @@ ul.cw-social-container {
 .uk-icon-large.cw-no-text,
 .uk-icon-medium.cw-no-text,
 .uk-icon-small.cw-no-text {margin-top:6px;}
-
-/* Social Networks
-------------------------------------------------------------------------------- */
-
-/* Twitter */
-.cw-social.cw-twitter {background:#55ACEE;}
-.cw-social.cw-twitter:hover,
-.cw-social.cw-twitter:active,
-.cw-social.cw-twitter:focus {background:#2795E9;}
-
-/* Google + */
-.cw-social.cw-google {background:#DD4B39;}
-.cw-social.cw-google:hover,
-.cw-social.cw-google:active,
-.cw-social.cw-google:focus {background:#C23321;}
-
-/* Pinterest */
-.cw-social.cw-pinterest {background:#CB2027;}
-.cw-social.cw-pinterest:hover,
-.cw-social.cw-pinterest:active,
-.cw-social.cw-pinterest:focus{background:#9F191F;}
-
-/* Facebook */
-.cw-social.cw-facebook {background:#3B5998;}
-.cw-social.cw-facebook:hover,
-.cw-social.cw-facebook:active,
-.cw-social.cw-facebook:focus {background:#2D4373;}
-
-/* Stumbleupon */
-.cw-social.cw-stumbleupon {background:#F50;}
-.cw-social.cw-stumbleupon:hover,
-.cw-social.cw-stumbleupon:active,
-.cw-social.cw-stumbleupon:focus {background:#C40;}
-
-/* Reddit */
-.cw-social.cw-reddit {background:#444;}
-.cw-social.cw-reddit:hover,
-.cw-social.cw-reddit:active,
-.cw-social.cw-reddit:focus {background:#696868;}
-
-/* Linkedin */
-.cw-social.cw-linkedin {background:#007BB6;}
-.cw-social.cw-linkedin:hover,
-.cw-social.cw-linkedin:active,
-.cw-social.cw-linkedin:focus {background:#005983;}
-
-/* Digg */
-.cw-social.cw-digg {background:#2672EC;}
-.cw-social.cw-digg:hover,
-.cw-social.cw-digg:active,
-.cw-social.cw-digg:focus {background:#125ACD;}
-
-/* Mail */
-.cw-social.cw-mail {background:#444;}
-.cw-social.cw-mail:hover,
-.cw-social.cw-mail:active,
-.cw-social.cw-mail:focus {background:#696868;}
-
-/* Whatsapp */
-.cw-social.cw-whatsapp {background:#42AA42;}
-.cw-social.cw-whatsapp:hover,
-.cw-social.cw-whatsapp:active,
-.cw-social.cw-whatsapp:focus {background:#268132;}
 
 /* Counts
 ------------------------------------------------------------------------------- */
@@ -214,3 +151,66 @@ a:hover .cw-share-count:after {
 }
 
 .cw-social.cw-no-count {margin-right:5px;}
+
+/* Social Networks
+------------------------------------------------------------------------------- */
+
+/* Twitter */
+.cw-social.cw-twitter {background:#55ACEE;}
+.cw-social.cw-twitter:hover,
+.cw-social.cw-twitter:active,
+.cw-social.cw-twitter:focus {background:#2795E9;}
+
+/* Google + */
+.cw-social.cw-google {background:#DD4B39;}
+.cw-social.cw-google:hover,
+.cw-social.cw-google:active,
+.cw-social.cw-google:focus {background:#C23321;}
+
+/* Pinterest */
+.cw-social.cw-pinterest {background:#CB2027;}
+.cw-social.cw-pinterest:hover,
+.cw-social.cw-pinterest:active,
+.cw-social.cw-pinterest:focus{background:#9F191F;}
+
+/* Facebook */
+.cw-social.cw-facebook {background:#3B5998;}
+.cw-social.cw-facebook:hover,
+.cw-social.cw-facebook:active,
+.cw-social.cw-facebook:focus {background:#2D4373;}
+
+/* Stumbleupon */
+.cw-social.cw-stumbleupon {background:#F50;}
+.cw-social.cw-stumbleupon:hover,
+.cw-social.cw-stumbleupon:active,
+.cw-social.cw-stumbleupon:focus {background:#C40;}
+
+/* Reddit */
+.cw-social.cw-reddit {background:#444;}
+.cw-social.cw-reddit:hover,
+.cw-social.cw-reddit:active,
+.cw-social.cw-reddit:focus {background:#696868;}
+
+/* Linkedin */
+.cw-social.cw-linkedin {background:#007BB6;}
+.cw-social.cw-linkedin:hover,
+.cw-social.cw-linkedin:active,
+.cw-social.cw-linkedin:focus {background:#005983;}
+
+/* Digg */
+.cw-social.cw-digg {background:#2672EC;}
+.cw-social.cw-digg:hover,
+.cw-social.cw-digg:active,
+.cw-social.cw-digg:focus {background:#125ACD;}
+
+/* Mail */
+.cw-social.cw-mail {background:#444;}
+.cw-social.cw-mail:hover,
+.cw-social.cw-mail:active,
+.cw-social.cw-mail:focus {background:#696868;}
+
+/* Whatsapp */
+.cw-social.cw-whatsapp {background:#42AA42;}
+.cw-social.cw-whatsapp:hover,
+.cw-social.cw-whatsapp:active,
+.cw-social.cw-whatsapp:focus {background:#268132;}
