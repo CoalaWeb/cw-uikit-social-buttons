@@ -20,7 +20,7 @@
 
 By adding the `cw-uikit-social-buttons.css` file to your pages you can harness the power of UIkit and get great looking buttons in minutes.
 
-![Figure-1](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/button-examples.png "Figure-1")
+![Figure-1](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/button-examples.png "Figure-1"){.coalaweb-docs}
 
 ## <a name="qstart"></a>Quick Start
 
@@ -28,17 +28,17 @@ By adding the `cw-uikit-social-buttons.css` file to your pages you can harness t
 
 **UIkit:** The first thing you need to do is to make sure you have UIkit loading on your site. To check right click your page and select **View Page Source** then have a look in the head of the page for a reference to UIkit. *\[Figure 2\]*
 
-![Figure-2](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-uikit.png "Figure-2")
+![Figure-2](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-uikit.png "Figure-2"){.coalaweb-docs}
 
 >  Note: If you are using a YooTheme template or any other YooTheme extension then you will already have it loading.
 
 **CW UIkit Social Buttons:** Next include the `cw-uikit-social-buttons.css` on your page. You can check if its loaded the same way as above. *\[Figure 3\]*
 
-![Figure-3](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-social-css.png "Figure-3")
+![Figure-3](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-social-css.png "Figure-3"){.coalaweb-docs}
 
 **jQuery:** Lastly make sure to include the jQuery on your page. You can check if its loaded the same way as above. *\[Figure 4\]*
 
-![Figure-4](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-jquery.png "Figure-4")
+![Figure-4](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-jquery.png "Figure-4"){.coalaweb-docs}
 
 > Note: If you have files listed but they don't appear to be working make sure the files are reachable by clicking on the link when viewing the page source. If it opens then its reachable.
 
