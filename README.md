@@ -141,10 +141,13 @@ The count will also have to match your button size:
 
 **Default:**
 - No span class added
+
 **Small:**
-- Span Class = cw-small 
+- Span Class = cw-small
+ 
 **Medium:**
-- Span Class = cw-medium 
+- Span Class = cw-medium
+ 
 **Large:**
 - Span Class = cw-large
 
