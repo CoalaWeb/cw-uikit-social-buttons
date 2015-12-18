@@ -84,6 +84,8 @@ The currently support social networks are:
 - Digg
 - Pinterest
 - Mail
+- GitHub
+- Flickr
 
 ### <a name="options"></a>Extended Options
 

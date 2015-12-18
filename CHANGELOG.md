@@ -1,5 +1,14 @@
 ## Change Log
 
+#### Version 1.1 December 2015
+
+#### CoalaWeb UIkit Social Buttons
+- **(A)** Added GitHub button
+- **(A)** Added Flickr button
+- **(B)** Fixed count CSS bug in Safari
+- **(C)** Small changes to count padding
+- **(C)** Updated demo and README
+
 #### Version 1.0 December 2015
 
 #### CoalaWeb UIkit Social Buttons
