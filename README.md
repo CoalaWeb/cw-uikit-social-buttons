@@ -12,11 +12,11 @@
 
 ## <a name="intro"></a>Intro
 
-> Are you using UIkit on its own or are you using a template/theme or extension that has come packaged with it?
+> Are you using UIkit on its own or packaged with a template/theme or extension?
  
 > Do you need a quick and easy way to get uniform social buttons on your site? 
 
-Then you have come to right place all you have to do is included the **cw-uikit-social-buttons.css** file to harness the power of UIkit and get great looking buttons in minutes.
+Then you have come to the right place, all you have to do is included the **cw-uikit-social-buttons.css** file on your page to harness the power of UIkit and get great looking buttons in minutes.
 
 ![Figure-1](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/button-examples.png "Figure-1")
 
