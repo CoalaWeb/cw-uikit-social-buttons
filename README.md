@@ -24,15 +24,21 @@ By adding the `cw-uikit-social-buttons.css` file to your pages you can harness t
 
 ### Requirements
 
+#### UIkit
+
 The first thing you need to do is to make sure you have **UIkit** loading on your site. To check right click your page and select **View Page Source** then have a look in the head of the page for a reference to UIkit. *\[Figure 2\]*
 
 ![Figure-2](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-uikit.png "Figure-2")
 
 >  Note: If you are using a YooTheme template or any other YooTheme extension then you will already have it loading.
 
+#### CW UIkit Social Buttons
+
 Next include the `cw-uikit-social-buttons.css` on your page. You can check if its loaded the same way as above. *\[Figure 3\]*
 
 ![Figure-3](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-social-css.png "Figure-3")
+
+#### jQuery
 
 Lastly make sure to include the **jQuery** on your page. You can check if its loaded the same way as above. *\[Figure 4\]*
 
@@ -68,7 +74,7 @@ The minimum attributes that you will need to include with your buttons are:
 
 Then if you want to add an icon use an `<i>` tag with the class of:
 
-- uk-icon-twitter (you can choose which social network based on the list below)
+- `uk-icon-twitter` (you can choose which social network based on the list below)
 
 The currently support social networks are:
 
@@ -136,7 +142,7 @@ The buttons can be displayed with or without text.
 
 #### <a name="opt-count"></a>Button Count
 
-You can also display a count for each of the buttons by adding a simple `<span>` element with the class attribute `cw-share-count`.
+You can add a count to a button by adding a simple `<span>` element with the class attribute `cw-share-count`.
 
 ```html
 <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
