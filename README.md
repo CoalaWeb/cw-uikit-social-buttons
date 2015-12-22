@@ -172,7 +172,7 @@ The count will also have to match your button size:
 - **UIkit:** 2.24.2
 
 #### jQuery
-- **jQuery:** 1.11.3
+- **jQuery:** 2.1.4
 
 #### Browsers
 - **Firefox:** 41.0.1
