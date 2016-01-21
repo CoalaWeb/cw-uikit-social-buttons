@@ -5,12 +5,14 @@
     -   [Requirements](#qstart-req)
     -   [Button Creation](#qstart-btn)
 3.  [Extended Option](#options)
-    -   [Button Sizes](#opt-size)
+    -   [Button Size](#opt-size)
+    -   [Button Icons](#opt-icons)
     -   [Button Text](#opt-text)
     -   [Button Count](#opt-count)
-4.  [Tested](#tested)
-5.  [License](#license)
-6.  [Issues?](#issues)
+4.  [Current Networks](#networks)
+5.  [Tested](#tested)
+6.  [License](#license)
+7.  [Issues?](#issues)
 
 ## <a name="intro"></a>Intro
 
@@ -44,7 +46,7 @@ By adding the `cw-uikit-social-buttons.css` file to your pages you can harness t
 
 ### <a name="qstart-btn"></a>Button Creation
 
-Now lets add some buttons, I prefer to have the buttons in a list so they flow nicely on different page widths. Below we have some outer containers to help with the layout and then inside that we have our list container and one button in its default state with an icon.
+Now lets add some buttons, I prefer to have the buttons in a list but thats up to you. Below we have a few outer containers to help with the layout and then inside that we have our list container and one button in its default state.
 
 ```html
 <div class="uk-container uk-margin-top uk-margin-bottom">
@@ -52,8 +54,7 @@ Now lets add some buttons, I prefer to have the buttons in a list so they flow n
         <div class="uk-width-1-1 uk-text-left">
             <ul class="cw-social-container">
                 <li class="">
-                    <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
-                        <i class="uk-icon-twitter"></i> Twitter</a>
+                    <a href="#" class="uk-button uk-contrast cw-social cw-twitter">Twitter</a>
                 </li>
             </ul>
         </div>
@@ -66,30 +67,13 @@ The minimum attributes that you will need to include with your buttons are:
 - `uk-button`
 - `uk-contrast`
 - `cw-social`
-- `cw-twitter` (you can choose which social network based on the list below)
+- `cw-twitter`
 
-Then if you want to add an icon use an `<i>` tag with the class of:
-
-- `uk-icon-twitter` (you can choose which social network based on the list below)
-
-The currently support social networks are:
-
-- Facebook
-- Google
-- Twitter
-- Linkedin
-- Reddit
-- Stumbleupon
-- Reddit
-- Digg
-- Pinterest
-- Mail
-- GitHub
-- Flickr
+Note: You can choose which social network based on the currently supported [Networks List](#networks)
 
 ### <a name="options"></a>Extended Options
 
-You have several options to extend the functionality of the buttons such as **size**, **text** and **count**.
+You have several options to extend the functionality of the buttons such as **size**, **icon**, **text** and **count**.
 
 #### <a name="opt-size"></a>Button Sizes
 
@@ -97,23 +81,60 @@ The buttons can be displayed in a variety of sizes which included:
 
 **Default:** 
 - Link class = 
+- Button class = 
 - Icon class = 
 
 **Small:** 
 - Link class = `cw-small`
+- Button class = `cw-small`
 - Icon class = `uk-icon-small`
 
 **Medium:** 
 - Link class = `cw-medium`
+- Button class = `cw-medium`
 - Icon class = `uk-icon-medium`
 
 **Large:** 
 - Link class = `cw-large` 
+- Button class = `cw-large`
 - Icon class = `uk-icon-large`
 
 ```html
-<a href="#" class="uk-button uk-contrast cw-social cw-small cw-twitter">
-    <i class="uk-icon-twitter uk-icon-small"></i></a>
+<div class="uk-button-group">
+    <a href="#" class="uk-button uk-contrast cw-social cw-small cw-google-plus">
+        <i class="uk-icon-google-plus uk-icon-small"></i> Google</a>
+    <button class="uk-button cw-share-count cw-small">313</button>
+</div>
+```
+
+#### <a name="opt-icon"></a>Button Icon
+
+Then if you want to add an icon use an `<i>` tag with the class outlining the social network you want to display.
+
+`<i class="uk-icon-twitter"></i>` 
+
+Note: You can choose which social network based on the currently supported [Networks List](#networks)
+
+Keep in mind the icon will also have to match your **Link/Button** size:
+
+**Default:**
+- Icon Class = 
+
+**Small:**
+- Icon Class = `uk-icon-small`
+ 
+**Medium:**
+- Icon Class = `uk-icon-medium`
+ 
+**Large:**
+- Icon Class = `uk-icon-large`
+
+```html
+<div class="uk-button-group">
+    <a href="#" class="uk-button uk-contrast cw-social cw-small cw-google-plus">
+        <i class="uk-icon-google-plus uk-icon-small"></i> Google</a>
+    <button class="uk-button cw-share-count cw-small">313</button>
+</div>
 ```
 
 #### <a name="opt-text"></a>Button Text
@@ -131,7 +152,7 @@ The buttons can be displayed with or without text.
 > Note: Make sure to leave a space after the icon.
 
 **No Text:** 
-- Icon class = cw-no-text
+- Icon class = `cw-no-text`
 
 ```html
 <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
@@ -140,36 +161,102 @@ The buttons can be displayed with or without text.
 
 #### <a name="opt-count"></a>Button Count
 
-You can add a count to a button by adding a simple `<span>` element with the class attribute `cw-share-count`.
+If you want to display a count just add a surrounding `<div>` element with the class attribute `uk-button-group` and a `<button>` element with the class attribute of `uk-button cw-share-count`.
 
 ```html
-<a href="#" class="uk-button uk-contrast cw-social cw-twitter">
-    <i class="uk-icon-twitter"></i> Twitter</a><span class="cw-share-count">313</span>
+<div class="uk-button-group">
+    <a href="#" class="uk-button uk-contrast cw-social cw-twitter">
+        <i class="uk-icon-twitter"></i> Twitter</a>
+    <button class="uk-button cw-share-count">313</button>
+</div>
+</div>
 ```
 
-The count will also have to match your button size:
+Keep in mind the count will also have to match your **Link/Icon** size:
 
 **Default:**
-- Span Class = 
+- Button Class = 
 
 **Small:**
-- Span Class = `cw-small`
+- Button Class = `cw-small`
  
 **Medium:**
-- Span Class = `cw-medium`
+- Button Class = `cw-medium`
  
 **Large:**
-- Span Class = `cw-large`
+- Button Class = `cw-large`
 
 ```html
-<a href="#" class="uk-button uk-contrast cw-social cw-small cw-twitter">
-    <i class="uk-icon-twitter uk-icon-small"></i> Twitter</a><span class="cw-share-count cw-small">313</span> 
+<div class="uk-button-group">
+    <a href="#" class="uk-button uk-contrast cw-social cw-small cw-google-plus">
+        <i class="uk-icon-google-plus uk-icon-small"></i> Google</a>
+    <button class="uk-button cw-share-count cw-small">313</button>
+</div>
 ```
+
+## <a name="networks"></a>Current Networks
+
+The currently support social networks are:
+
+**Facbook:**
+- Link Class = `cw-facebook`
+- Button Class = `cw-facebook`
+- Icon Class = `uk-icon-facebook`
+
+**Google:**
+- Link Class = `cw-google-plus`
+- Button Class = `cw-google-plus`
+- Icon Class = `uk-icon-google-plus` or `uk-icon-google`
+
+**Twitter:**
+- Link Class = `cw-twitter`
+- Button Class = `cw-twitter`
+- Icon Class = `uk-icon-twitter`
+
+**Linkedin:**
+- Link Class = `cw-linkedin`
+- Button Class = `cw-linkedin`
+- Icon Class = `uk-icon-linkedin`
+
+**Reddit:**
+- Link Class = `cw-reddit`
+- Button Class = `cw-reddit`
+- Icon Class = `uk-icon-reddit`
+
+**Stumbleupon:**
+- Link Class = `cw-stumbleupon`
+- Button Class = `cw-stumbleupon`
+- Icon Class = `uk-icon-stumbleupon`
+
+**Digg:**
+- Link Class = `cw-digg`
+- Button Class = `cw-digg`
+- Icon Class = `uk-icon-digg`
+
+**Pinterest:**
+- Link Class = `cw-pinterest`
+- Button Class = `cw-pinterest`
+- Icon Class = `uk-icon-pinterest`
+
+**Mail:**
+- Link Class = `cw-mail`
+- Button Class = `cw-mail`
+- Icon Class = `uk-icon-envelope`
+
+**Github:**
+- Link Class = `cw-github`
+- Button Class = `cw-github`
+- Icon Class = `uk-icon-github`
+
+**Flickr:**
+- Link Class = `cw-flickr`
+- Button Class = `cw-flickr`
+- Icon Class = `uk-icon-flickr`
 
 ## <a name="tested"></a>Tested
 
 #### UIkit
-- **UIkit:** 2.24.2
+- **UIkit:** 2.24.3
 
 #### jQuery
 - **jQuery:** 2.1.4
