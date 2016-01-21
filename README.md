@@ -69,7 +69,7 @@ The minimum attributes that you will need to include with your buttons are:
 - `cw-social`
 - `cw-twitter`
 
-Note: You can choose which social network based on the currently supported [Networks List](#networks)
+> Note: You can choose which social network based on the currently supported [Networks List](#networks)
 
 ### <a name="options"></a>Extended Options
 
@@ -109,13 +109,13 @@ The buttons can be displayed in a variety of sizes which included:
 
 #### <a name="opt-icon"></a>Button Icon
 
-Then if you want to add an icon use an `<i>` tag with the class outlining the social network you want to display.
+Then if you want to add an icon use an `<i>` tag with a class using the social network you want to display.
 
 `<i class="uk-icon-twitter"></i>` 
 
-Note: You can choose which social network based on the currently supported [Networks List](#networks)
+> Note: You can choose which social network based on the currently supported [Networks List](#networks)
 
-Keep in mind the icon will also have to match your **Link/Button** size:
+> Note: The icon will also have to match your **Link/Button** size:
 
 **Default:**
 - Icon Class = 
@@ -172,7 +172,7 @@ If you want to display a count just add a surrounding `<div>` element with the c
 </div>
 ```
 
-Keep in mind the count will also have to match your **Link/Icon** size:
+> Note: The count will also have to match your **Link/Icon** size:
 
 **Default:**
 - Button Class = 
