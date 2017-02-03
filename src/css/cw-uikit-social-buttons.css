@@ -28,6 +28,7 @@ ul.cw-social-container {
   font-weight: 600;
   height: 30px;
   line-height: 30px;
+  min-width: 40px;
   text-shadow: none;
 }
 .cw-social.uk-button:hover,

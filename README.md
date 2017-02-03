@@ -1,18 +1,19 @@
 ## Table of Contents
 
 1.  [Intro](#intro)
-2.  [Quick Start](#qstart)
+2.  [Demo](#demo)
+3.  [Quick Start](#qstart)
     -   [Requirements](#qstart-req)
     -   [Button Creation](#qstart-btn)
-3.  [Extended Option](#options)
+4.  [Extended Option](#options)
     -   [Button Size](#opt-size)
     -   [Button Icons](#opt-icons)
     -   [Button Text](#opt-text)
     -   [Button Count](#opt-count)
-4.  [Current Networks](#networks)
-5.  [Tested](#tested)
-6.  [License](#license)
-7.  [Issues?](#issues)
+5.  [Current Networks](#networks)
+6.  [Tested](#tested)
+7.  [License](#license)
+8.  [Issues?](#issues)
 
 ## <a name="intro"></a>Intro
 
@@ -23,6 +24,10 @@
 By adding the `cw-uikit-social-buttons.css` file to your pages you can harness the power of UIkit and get great looking buttons in minutes.
 
 ![Figure-1](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/button-examples.png "Figure-1"){.coalaweb-docs}
+
+## <a name="demo"></a>Demo
+
+Want to see it in action? Click [HERE](https://coalaweb.github.io/cw-uikit-social-buttons/demo)
 
 ## <a name="qstart"></a>Quick Start
 
