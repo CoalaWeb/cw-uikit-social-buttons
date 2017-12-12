@@ -2,12 +2,17 @@
 
 #### CoalaWeb UIkit Social Buttons
 
+#### Version 1.0.4 December 2017
+- **(A)** Added Instagram
+- **(C)** Updated and tested with UIkit 2 version 2.27.4
+- **(C)** Updated and tested with jQuery version 3.2.1
+- **(C)** Updated README
+
 #### Version 1.0.3 January 2016
 - **(C)** Rewritten the count section to use uk-button-group  
 - **(C)** Streamlined CSS
 - **(C)** Updated UIkit to version 2.24.3
 - **(C)** Updated guide due to incorporate changes
-
 
 #### Version 1.0.2 December 2015
 - **(C)** Complete restructure of files

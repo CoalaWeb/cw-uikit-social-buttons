@@ -3,7 +3,7 @@
  * @author url          http://coalaweb.com
  * @author email        support@coalaweb.com
  * @copyright           Copyright (c) 2016 Steven Palmer All rights reserved.
- * @version             1.4
+ * @version             1.0.4
  */
 
 // Variables
@@ -20,6 +20,8 @@
 @color10: #2795e9;
 @color11: #268132;
 @color12: #d9d9d9;
+@color13: #f09433;
+@color14: #bc1888;
 @width0: 0;
 @width1: 40px;
 @height0: 58px;
@@ -362,4 +364,23 @@ ul.cw-social-container {
     &:focus {
         background: @color0;
     }
+}
+
+// Instagram
+.cw-social.cw-instagram {
+    background: -moz-linear-gradient(45deg, @color13 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, @color14 100%);
+    background: -webkit-linear-gradient(45deg, @color13 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,@color14 100%);
+    background: @color13;
+    background: linear-gradient(45deg, @color13 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,@color14 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@color13', endColorstr='@color14',GradientType=1 );
+    &:hover {
+        background: @color14;
+    }
+    &:active {
+        background: @color14;
+    }
+    &:focus {
+        background: @color14;
+    }
+
 }

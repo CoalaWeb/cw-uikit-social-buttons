@@ -17,11 +17,11 @@
 
 ## <a name="intro"></a>Intro
 
-> Are you using UIkit on its own or packaged with a template/theme/extension?
+> Are you using UIkit 2 on its own or packaged with a template/theme/extension?
  
 > Do you need a quick and easy way to get uniform social buttons on your site? 
 
-By adding the `cw-uikit-social-buttons.css` file to your pages you can harness the power of UIkit and get great looking buttons in minutes.
+By adding the `cw-uikit-social-buttons.css` file to your pages you can harness the power of UIkit 2 and get great looking buttons in minutes.
 
 ![Figure-1](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/button-examples.png "Figure-1"){.coalaweb-docs}
 
@@ -33,7 +33,7 @@ Want to see it in action? Click [HERE](https://coalaweb.github.io/cw-uikit-socia
 
 ### <a name="qstart-req"></a>Requirements
 
-**UIkit:** The first thing you need to do is to make sure you have UIkit loading on your site. To check right click your page and select **View Page Source** then have a look in the head of the page for a reference to UIkit. *\[Figure 2\]*
+**UIkit 2:** The first thing you need to do is to make sure you have UIkit 2 loading on your site. To check right click your page and select **View Page Source** then have a look in the head of the page for a reference to UIkit 2. *\[Figure 2\]*
 
 ![Figure-2](http://cdn.coalaweb.com/images/github/uikit/cw-uikit-social/include-uikit.png "Figure-2"){.coalaweb-docs}
 
@@ -258,13 +258,18 @@ The currently support social networks are:
 - Button Class = `cw-flickr`
 - Icon Class = `uk-icon-flickr`
 
+**Instagram:**
+- Link Class = `cw-instagram`
+- Button Class = `cw-instagram`
+- Icon Class = `uk-icon-instagram`
+
 ## <a name="tested"></a>Tested
 
-#### UIkit
-- **UIkit:** 2.24.3
+#### UIkit 2
+- **UIkit 2:** 2.24.3 - 2.27.4
 
 #### jQuery
-- **jQuery:** 2.1.4
+- **jQuery:** 2.1.4 - 3.2.1
 
 #### Browsers
 - **Firefox:** 41.0.1
